@@ -8,12 +8,15 @@
 <body>
     <script>
         function circle(radius) {
-            let s = Math.sqrt(radius) * 3.14 
-            let c = radius * 2 * 3.14
+            let s = Math.sqrt(radius) * Math.PI
+            let c = radius * 2 * Math.PI
             console.log('s = ',s)
             console.log('c = ',c)
+            // document.write(s)
+            // document.write(c)
         }
-        circle(2)
+        let radius = prompt('Input radius = ');
+        circle(radius)
     </script>
 </body>
 </html>
