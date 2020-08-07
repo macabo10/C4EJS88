@@ -1,0 +1,1 @@
+'#AnneFrank - Parallel Stories': '{"time":95,"year":"2019","genre":"Documentaries, International Movies","director":"Sabina Fedeli, Anna Migotto","actors":"Helen Mirren, Gengher Gatti","country":"","rating":"7.0","netflix":"https:\\/\\/www.netflix.com\\/br-en\\/title\\/81264660","enter_in":"July 1, 2020"}'

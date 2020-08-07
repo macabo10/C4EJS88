@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let year = prompt('Input year: ');
+        let month = prompt('Input month: ');
+        let month1 = [1,3,5,7,8,10,12]
+        let month2 = [4,6,9,11]
+        if (year % 4 ==0) {
+            if (month == 2) {
+                console.log(`There're 29 days`);
+            }
+            if (month in month1) {
+                console.log(`There're 31 days`);
+            }
+            if (month in month2) {
+                console.log("There're 30 days");
+            }
+        } else {
+            if (month == 2) {
+                console.log(`There're 28 days`);
+            }
+            if (month in month1) {
+                console.log(`There're 31 days`);
+            }
+            if (month in month2) {
+                console.log("There're 30 days");
+            }
+        }
+    </script>
+</body>
+</html>

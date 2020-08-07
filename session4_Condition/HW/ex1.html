@@ -7,8 +7,12 @@
 </head>
 <body>
     <script>
-        let x = 2**(2+3)
-        console.log(x);
+        let year = prompt('Input year: ')
+        if (year % 4 ==0) {
+            console.log(`There're 366 days in ${year}`);
+        } else {
+            console.log(`There're 365 days in ${year}`);
+        }
     </script>
 </body>
 </html>
